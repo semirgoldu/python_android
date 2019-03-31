@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	
+	android:orientation="vertical"
+	android:gravity="bottom"
+	android:background="#ffffffff"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	
+	
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		android:layout_weight="8">	
+		<ImageView
+		android:id="@+id/logo"
+		android:layout_width="fill_parent"
+		android:layout_height="400"
+		android:layout_weight="10"
+	/>
+		<TextView
+			android:layout_width = "fill_parent"
+			android:layout_height="wrap_content"
+			android:text = "SL4A NATIVE ANDROID DEMO"
+			android:textColor="#000000"
+			android:textSize="15dp"
+			android:layout_weight="2"
+			android:gravity="center|center_vertical"
+			android:textStyle="1"
+		/>
+		<TextView
+			android:layout_width = "fill_parent"
+			android:layout_height="wrap_content"
+			android:text = "THIS IS A DEMO OF BUILDING NATIVE ANDROID INTERFACES USING PYTHON SL4A"
+			android:textSize="10dp"
+			android:layout_weight="2"
+			android:gravity="center"
+			android:textStyle="1"
+		/>
+		<TextView
+			android:layout_width = "fill_parent"
+			android:layout_height="wrap_content"
+			android:text = "http://github.com/"
+			android:textSize="7dp"
+			android:layout_weight="2"
+			android:gravity="center"
+			android:textStyle="1"
+			android:textColor="#0000ff"
+		/>
+		
+	
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="200"
+		android:orientation="horizontal"
+		android:layout_weight="15"
+		android:gravity="bottom">
+		
+		<Button
+			android:layout_width="150"
+			android:layout_height="200"
+			android:text="Exit"
+			android:id="@+id/but_exit" 
+			android:textSize="9dp"
+			android:background="#ff25567b"
+			android:textColor="#ffffffff"
+			android:layout_weight="1"
+			android:gravity="center"/>
+		
+	</LinearLayout>
+</LinearLayout>
